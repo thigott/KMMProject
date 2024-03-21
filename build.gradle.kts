@@ -18,28 +18,4 @@ tasks.register("clean", Delete::class) {
     delete(rootProject.buildDir)
 }
 
-subprojects {
-    apply {
-        plugin("maven-publish")
-        plugin("org.jetbrains.dokka")
-    }
-
-    afterEvaluate {
-        plugins.withId("com.android.library") {
-            publishing {
-                publications {
-                    register<MavenPublication>("release") {
-                        groupId = "com.github.puradev"
-                        version = "2.0.0"
-
-                        afterEvaluate {
-                            from(components["release"])
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
 
