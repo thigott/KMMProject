@@ -17,8 +17,16 @@ subprojects {
         plugin("maven-publish")
     }
 
-    group = "com.github.puradev"
-    version = "2.0.0"
+    publishing {
+        publications {
+            create<MavenPublication>("maven") {
+                group = "com.github.thigott"
+                version = "2.0.0"
+                val source = "$buildDir/outputs/aar/${artifactId}-release.aar"
+                artifact(source)
+            }
+        }
+    }
 }
 
 
