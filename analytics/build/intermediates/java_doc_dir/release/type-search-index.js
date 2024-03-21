@@ -1,1 +1,0 @@
-var typeSearchIndex = [{"p":"com.purascents.base.analytics","l":"AndroidSegmentAnalytics","url":"com/purascents/base/analytics/AndroidSegmentAnalytics.html"}, {"p":"com.purascents.base.analytics","l":"SegmentAnalyticsKt","url":"com/purascents/base/analytics/SegmentAnalyticsKt.html"}, {"l":"All classes","url":"allclasses.html"}]

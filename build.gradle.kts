@@ -29,7 +29,7 @@ subprojects {
             publishing {
                 publications {
                     register<MavenPublication>("release") {
-                        groupId = "com.github.thigott"
+                        groupId = "com.github.puradev"
                         version = "2.0.0"
 
                         afterEvaluate {

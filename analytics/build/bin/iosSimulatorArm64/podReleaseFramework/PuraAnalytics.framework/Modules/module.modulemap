@@ -1,8 +1,0 @@
-framework module PuraAnalytics {
-    umbrella header "PuraAnalytics.h"
-
-    export *
-    module * { export * }
-
-    use Foundation
-}
