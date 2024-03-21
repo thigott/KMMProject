@@ -1,0 +1,68 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.purascents.base.analytics-mergeReleaseResources-6:/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/thiagoalves/.gradle/caches/transforms-3/5d5a2b340b2cfe7a01b59f1fb363850c/transformed/startup-runtime-1.1.1/res/values/values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "82",
+                        "endOffsets": "133"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "98",
+                        "endColumns": "82",
+                        "endOffsets": "176"
+                    }
+                },
+                {
+                    "source": "/Users/thiagoalves/.gradle/caches/transforms-3/97005f33f54712ef7d9ece1920cdafff/transformed/lifecycle-runtime-2.6.1/res/values/values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "42",
+                        "endOffsets": "93"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.purascents.base.analytics-merged_res-8:/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/thiagoalves/.gradle/caches/transforms-3/5d5a2b340b2cfe7a01b59f1fb363850c/transformed/startup-runtime-1.1.1/res/values/values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "82",
+                        "endOffsets": "133"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "98",
+                        "endColumns": "82",
+                        "endOffsets": "176"
+                    }
+                },
+                {
+                    "source": "/Users/thiagoalves/.gradle/caches/transforms-3/97005f33f54712ef7d9ece1920cdafff/transformed/lifecycle-runtime-2.6.1/res/values/values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "42",
+                        "endOffsets": "93"
+                    }
+                }
+            ]
+        }
+    ]
+}

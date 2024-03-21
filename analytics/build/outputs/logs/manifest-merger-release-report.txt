@@ -1,0 +1,16 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/thiagoalves/AndroidStudioProjects/KMMProject/analytics/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest14874249783902471408.xml:2:13-83
+INJECTED from /Users/thiagoalves/AndroidStudioProjects/KMMProject/analytics/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest14874249783902471408.xml:2:13-83
+	package
+		INJECTED from /Users/thiagoalves/AndroidStudioProjects/KMMProject/analytics/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest14874249783902471408.xml
+	xmlns:android
+		ADDED from /Users/thiagoalves/AndroidStudioProjects/KMMProject/analytics/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest14874249783902471408.xml:2:23-81
+uses-sdk
+INJECTED from /Users/thiagoalves/AndroidStudioProjects/KMMProject/analytics/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest14874249783902471408.xml reason: use-sdk injection requested
+INJECTED from /Users/thiagoalves/AndroidStudioProjects/KMMProject/analytics/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest14874249783902471408.xml
+INJECTED from /Users/thiagoalves/AndroidStudioProjects/KMMProject/analytics/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest14874249783902471408.xml
+	android:targetSdkVersion
+		INJECTED from /Users/thiagoalves/AndroidStudioProjects/KMMProject/analytics/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest14874249783902471408.xml
+	android:minSdkVersion
+		INJECTED from /Users/thiagoalves/AndroidStudioProjects/KMMProject/analytics/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest14874249783902471408.xml

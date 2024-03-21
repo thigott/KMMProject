@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>CarOnboarding</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../../index.html">
+                            Pura Analytics Library
+                    </a>
+            </div>
+            <div class="library-version">
+2.0.0            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector common-like" data-active="" data-filter=":analytics:dokkaHtml/commonMain">common</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="Pura Analytics Library::com.purascents.base.analytics/CarOnboarding///PointingToDeclaration//137657446">
+  <div class="breadcrumbs"><a href="../../../index.html">Pura Analytics Library</a><span class="delimiter">/</span><a href="../index.html">com.purascents.base.analytics</a><span class="delimiter">/</span><span class="current">CarOnboarding</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Car</span><wbr></wbr><span><span>Onboarding</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":analytics:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">class </span><a href="index.html">CarOnboarding</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>screenName<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span> : <a href="../-default-screen-viewed-event/index.html">DefaultScreenViewedEvent</a></div><h4 class="">Inheritors</h4><div class="table"><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-plug-in-and-turn-on-diffuser-screen/index.html">PlugInAndTurnOnDiffuserScreen</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-scanning-for-diffuser-screen/index.html">ScanningForDiffuserScreen</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-connecting-to-diffuser-screen/index.html">ConnectingToDiffuserScreen</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-name-device-screen/index.html">NameDeviceScreen</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-insert-fragrance-screen/index.html">InsertFragranceScreen</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-fragrance-detected-screen/index.html">FragranceDetectedScreen</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-auto-feature-education-screen/index.html">AutoFeatureEducationScreen</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-magnet-education-screen/index.html">MagnetEducationScreen</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-strap-education-screen/index.html">StrapEducationScreen</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-manual-control-education-screen/index.html">ManualControlEducationScreen</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-legal-acknowledgment-screen/index.html">LegalAcknowledgmentScreen</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-setup-complete-screen/index.html">SetupCompleteScreen</a></div></span></div><div></div></div></div></div></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="-1641152347%2FConstructors%2F137657446" anchor-label="CarOnboarding" id="-1641152347%2FConstructors%2F137657446" data-filterable-set=":analytics:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-car-onboarding.html"><span>Car</span><wbr></wbr><span><span>Onboarding</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1641152347%2FConstructors%2F137657446"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":analytics:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">screenName<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="TYPE">
+        <h2 class="">Types</h2>
+        <div class="table"><a data-name="954727924%2FClasslikes%2F137657446" anchor-label="AutoFeatureEducationScreen" id="954727924%2FClasslikes%2F137657446" data-filterable-set=":analytics:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-auto-feature-education-screen/index.html"><span>Auto</span><wbr></wbr><span>Feature</span><wbr></wbr><span>Education</span><wbr></wbr><span><span>Screen</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="954727924%2FClasslikes%2F137657446"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":analytics:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">class </span><a href="-auto-feature-education-screen/index.html">AutoFeatureEducationScreen</a> : <a href="index.html">CarOnboarding</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-295418606%2FClasslikes%2F137657446" anchor-label="ConnectingToDiffuserScreen" id="-295418606%2FClasslikes%2F137657446" data-filterable-set=":analytics:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-connecting-to-diffuser-screen/index.html"><span>Connecting</span><wbr></wbr><span>To</span><wbr></wbr><span>Diffuser</span><wbr></wbr><span><span>Screen</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-295418606%2FClasslikes%2F137657446"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":analytics:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">class </span><a href="-connecting-to-diffuser-screen/index.html">ConnectingToDiffuserScreen</a> : <a href="index.html">CarOnboarding</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-745933500%2FClasslikes%2F137657446" anchor-label="FragranceDetectedScreen" id="-745933500%2FClasslikes%2F137657446" data-filterable-set=":analytics:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-fragrance-detected-screen/index.html"><span>Fragrance</span><wbr></wbr><span>Detected</span><wbr></wbr><span><span>Screen</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-745933500%2FClasslikes%2F137657446"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":analytics:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">class </span><a href="-fragrance-detected-screen/index.html">FragranceDetectedScreen</a> : <a href="index.html">CarOnboarding</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-782083329%2FClasslikes%2F137657446" anchor-label="InsertFragranceScreen" id="-782083329%2FClasslikes%2F137657446" data-filterable-set=":analytics:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-insert-fragrance-screen/index.html"><span>Insert</span><wbr></wbr><span>Fragrance</span><wbr></wbr><span><span>Screen</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-782083329%2FClasslikes%2F137657446"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":analytics:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">class </span><a href="-insert-fragrance-screen/index.html">InsertFragranceScreen</a> : <a href="index.html">CarOnboarding</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2086334005%2FClasslikes%2F137657446" anchor-label="LegalAcknowledgmentScreen" id="2086334005%2FClasslikes%2F137657446" data-filterable-set=":analytics:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-legal-acknowledgment-screen/index.html"><span>Legal</span><wbr></wbr><span>Acknowledgment</span><wbr></wbr><span><span>Screen</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2086334005%2FClasslikes%2F137657446"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":analytics:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">class </span><a href="-legal-acknowledgment-screen/index.html">LegalAcknowledgmentScreen</a> : <a href="index.html">CarOnboarding</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-941088265%2FClasslikes%2F137657446" anchor-label="MagnetEducationScreen" id="-941088265%2FClasslikes%2F137657446" data-filterable-set=":analytics:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-magnet-education-screen/index.html"><span>Magnet</span><wbr></wbr><span>Education</span><wbr></wbr><span><span>Screen</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-941088265%2FClasslikes%2F137657446"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":analytics:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">class </span><a href="-magnet-education-screen/index.html">MagnetEducationScreen</a> : <a href="index.html">CarOnboarding</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1258074724%2FClasslikes%2F137657446" anchor-label="ManualControlEducationScreen" id="1258074724%2FClasslikes%2F137657446" data-filterable-set=":analytics:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-manual-control-education-screen/index.html"><span>Manual</span><wbr></wbr><span>Control</span><wbr></wbr><span>Education</span><wbr></wbr><span><span>Screen</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1258074724%2FClasslikes%2F137657446"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":analytics:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">class </span><a href="-manual-control-education-screen/index.html">ManualControlEducationScreen</a> : <a href="index.html">CarOnboarding</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="269619796%2FClasslikes%2F137657446" anchor-label="NameDeviceScreen" id="269619796%2FClasslikes%2F137657446" data-filterable-set=":analytics:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-name-device-screen/index.html"><span>Name</span><wbr></wbr><span>Device</span><wbr></wbr><span><span>Screen</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="269619796%2FClasslikes%2F137657446"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":analytics:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">class </span><a href="-name-device-screen/index.html">NameDeviceScreen</a> : <a href="index.html">CarOnboarding</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="667834309%2FClasslikes%2F137657446" anchor-label="PlugInAndTurnOnDiffuserScreen" id="667834309%2FClasslikes%2F137657446" data-filterable-set=":analytics:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-plug-in-and-turn-on-diffuser-screen/index.html"><span>Plug</span><wbr></wbr><span>In</span><wbr></wbr><span>And</span><wbr></wbr><span>Turn</span><wbr></wbr><span>On</span><wbr></wbr><span>Diffuser</span><wbr></wbr><span><span>Screen</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="667834309%2FClasslikes%2F137657446"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":analytics:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">class </span><a href="-plug-in-and-turn-on-diffuser-screen/index.html">PlugInAndTurnOnDiffuserScreen</a> : <a href="index.html">CarOnboarding</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="585797709%2FClasslikes%2F137657446" anchor-label="ScanningForDiffuserScreen" id="585797709%2FClasslikes%2F137657446" data-filterable-set=":analytics:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-scanning-for-diffuser-screen/index.html"><span>Scanning</span><wbr></wbr><span>For</span><wbr></wbr><span>Diffuser</span><wbr></wbr><span><span>Screen</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="585797709%2FClasslikes%2F137657446"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":analytics:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">class </span><a href="-scanning-for-diffuser-screen/index.html">ScanningForDiffuserScreen</a> : <a href="index.html">CarOnboarding</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-61731969%2FClasslikes%2F137657446" anchor-label="SetupCompleteScreen" id="-61731969%2FClasslikes%2F137657446" data-filterable-set=":analytics:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-setup-complete-screen/index.html"><span>Setup</span><wbr></wbr><span>Complete</span><wbr></wbr><span><span>Screen</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-61731969%2FClasslikes%2F137657446"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":analytics:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">class </span><a href="-setup-complete-screen/index.html">SetupCompleteScreen</a> : <a href="index.html">CarOnboarding</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="255294669%2FClasslikes%2F137657446" anchor-label="StrapEducationScreen" id="255294669%2FClasslikes%2F137657446" data-filterable-set=":analytics:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-strap-education-screen/index.html"><span>Strap</span><wbr></wbr><span>Education</span><wbr></wbr><span><span>Screen</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="255294669%2FClasslikes%2F137657446"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":analytics:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">class </span><a href="-strap-education-screen/index.html">StrapEducationScreen</a> : <a href="index.html">CarOnboarding</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="-904286927%2FProperties%2F137657446" anchor-label="screenName" id="-904286927%2FProperties%2F137657446" data-filterable-set=":analytics:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-default-screen-viewed-event/screen-name.html"><span>screen</span><wbr></wbr><span><span>Name</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-904286927%2FProperties%2F137657446"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":analytics:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="../-default-screen-viewed-event/screen-name.html">screenName</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="-1185216578%2FFunctions%2F137657446" anchor-label="parameters" id="-1185216578%2FFunctions%2F137657446" data-filterable-set=":analytics:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-default-screen-viewed-event/parameters.html"><span><span>parameters</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1185216578%2FFunctions%2F137657446"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":analytics:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../-default-screen-viewed-event/parameters.html"><span class="token function">parameters</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="kotlinx.serialization.json/JsonObject///PointingToDeclaration/">JsonObject</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1695694862%2FFunctions%2F137657446" anchor-label="parametersAsMap" id="-1695694862%2FFunctions%2F137657446" data-filterable-set=":analytics:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-default-screen-viewed-event/parameters-as-map.html"><span>parameters</span><wbr></wbr><span>As</span><wbr></wbr><span><span>Map</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1695694862%2FFunctions%2F137657446"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":analytics:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../-default-screen-viewed-event/parameters-as-map.html"><span class="token function">parametersAsMap</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a><span class="token operator">?</span><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="689891231%2FFunctions%2F137657446" anchor-label="toString" id="689891231%2FFunctions%2F137657446" data-filterable-set=":analytics:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-screen-event/to-string.html"><span>to</span><wbr></wbr><span><span>String</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="689891231%2FFunctions%2F137657446"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":analytics:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../-screen-event/to-string.html"><span class="token function">toString</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>(c) 2024 Pura</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

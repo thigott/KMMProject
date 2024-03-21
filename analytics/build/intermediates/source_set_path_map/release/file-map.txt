@@ -1,0 +1,14 @@
+com.purascents.base.analytics-core-runtime-2.2.0-0 /Users/thiagoalves/.gradle/caches/transforms-3/03ef91fbd206764fd794fac041905145/transformed/core-runtime-2.2.0/res
+com.purascents.base.analytics-lifecycle-process-2.6.1-1 /Users/thiagoalves/.gradle/caches/transforms-3/169e24d1c274666b948fb8ec7247bea3/transformed/lifecycle-process-2.6.1/res
+com.purascents.base.analytics-startup-runtime-1.1.1-2 /Users/thiagoalves/.gradle/caches/transforms-3/5d5a2b340b2cfe7a01b59f1fb363850c/transformed/startup-runtime-1.1.1/res
+com.purascents.base.analytics-lifecycle-runtime-2.6.1-3 /Users/thiagoalves/.gradle/caches/transforms-3/97005f33f54712ef7d9ece1920cdafff/transformed/lifecycle-runtime-2.6.1/res
+com.purascents.base.analytics-profileinstaller-1.3.0-4 /Users/thiagoalves/.gradle/caches/transforms-3/c70bc4cb689c01f6740bc276ec953b73/transformed/profileinstaller-1.3.0/res
+com.purascents.base.analytics-pngs-5 /Users/thiagoalves/AndroidStudioProjects/KMMProject/analytics/build/generated/res/pngs/release
+com.purascents.base.analytics-resValues-6 /Users/thiagoalves/AndroidStudioProjects/KMMProject/analytics/build/generated/res/resValues/release
+com.purascents.base.analytics-mergeReleaseResources-7 /Users/thiagoalves/AndroidStudioProjects/KMMProject/analytics/build/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.purascents.base.analytics-mergeReleaseResources-8 /Users/thiagoalves/AndroidStudioProjects/KMMProject/analytics/build/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.purascents.base.analytics-merged_res-9 /Users/thiagoalves/AndroidStudioProjects/KMMProject/analytics/build/intermediates/merged_res/release
+com.purascents.base.analytics-androidMain-10 /Users/thiagoalves/AndroidStudioProjects/KMMProject/analytics/src/androidMain/res
+com.purascents.base.analytics-androidRelease-11 /Users/thiagoalves/AndroidStudioProjects/KMMProject/analytics/src/androidRelease/res
+com.purascents.base.analytics-main-12 /Users/thiagoalves/AndroidStudioProjects/KMMProject/analytics/src/main/res
+com.purascents.base.analytics-release-13 /Users/thiagoalves/AndroidStudioProjects/KMMProject/analytics/src/release/res

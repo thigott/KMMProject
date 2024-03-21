@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>DiffuserSetupScreenEvent</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../../index.html">
+                            Pura Analytics Library
+                    </a>
+            </div>
+            <div class="library-version">
+2.0.0            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector common-like" data-active="" data-filter=":analytics:dokkaHtml/commonMain">common</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="Pura Analytics Library::com.purascents.base.analytics/DiffuserSetupScreenEvent///PointingToDeclaration//137657446">
+  <div class="breadcrumbs"><a href="../../../index.html">Pura Analytics Library</a><span class="delimiter">/</span><a href="../index.html">com.purascents.base.analytics</a><span class="delimiter">/</span><span class="current">DiffuserSetupScreenEvent</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Diffuser</span><wbr></wbr><span>Setup</span><wbr></wbr><span>Screen</span><wbr></wbr><span><span>Event</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":analytics:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">class </span><a href="index.html">DiffuserSetupScreenEvent</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>screenName<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">flow<span class="token operator">: </span><a href="../-analytics-app-flow/index.html">AnalyticsAppFlow</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>diffuserSetupVersion<span class="token operator">: </span><a href="../-diffuser-setup-version/index.html">DiffuserSetupVersion</a></span></span><span class="token punctuation">)</span> : <a href="../-default-screen-viewed-event/index.html">DefaultScreenViewedEvent</a></div><h4 class="">Inheritors</h4><div class="table"><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-diffuser-position-screen-event/index.html">DiffuserPositionScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-blue-nightlight-screen-event/index.html">BlueNightlightScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-reset-button-screen-event/index.html">ResetButtonScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-connect-to-pura-screen-event/index.html">ConnectToPuraScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-scanning-for-diffusers-screen-event/index.html">ScanningForDiffusersScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-pura3-detected-modal-screen-event/index.html">Pura3DetectedModalScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-connect-to-pura-setup-tips-screen-event/index.html">ConnectToPuraSetupTipsScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-no-diffusers-found-screen-event/index.html">NoDiffusersFoundScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-unable-to-connect-to-diffuser-screen-event/index.html">UnableToConnectToDiffuserScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-connect-diffuser-setup-device-issue-screen-event/index.html">ConnectDiffuserSetupDeviceIssueScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-connecting-to-diffuser-screen-event/index.html">ConnectingToDiffuserScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-diffuser-ready-screen-event/index.html">DiffuserReadyScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-connect-to-wi-fi-screen-event/index.html">ConnectToWiFiScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-connect-to-wi-fi-setup-tips-screen-event/index.html">ConnectToWiFiSetupTipsScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-no-wifi-found-screen-event/index.html">NoWifiFoundScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-connect-to-wi-fi-automatically-screen-event/index.html">ConnectToWiFiAutomaticallyScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-enter-wi-fi-credentials-password-event/index.html">EnterWiFiCredentialsPasswordEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-diffuser-configuration-screen-event/index.html">DiffuserConfigurationScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-leave-diffuser-setup-screen-event/index.html">LeaveDiffuserSetupScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-onboarding-result-screen-event/index.html">OnboardingResultScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-diffuser-updating-screen-event/index.html">DiffuserUpdatingScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-diffuser-updating-more-info-screen-event/index.html">DiffuserUpdatingMoreInfoScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-smart-vials-education-screen-event/index.html">SmartVialsEducationScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-legacy-vials-education-screen-event/index.html">LegacyVialsEducationScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-create-scent-schedule-screen-event/index.html">CreateScentScheduleScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-diffuser-setup-complete-screen-event/index.html">DiffuserSetupCompleteScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-diffuser-setup-tips-screen-event/index.html">DiffuserSetupTipsScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-diffuser-setup-web-screen-event/index.html">DiffuserSetupWebScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-diffuser-setup-main-screen-event/index.html">DiffuserSetupMainScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-diffuser-setup-error-screen-event/index.html">DiffuserSetupErrorScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-diffuser-position-more-info-screen-event/index.html">DiffuserPositionMoreInfoScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-diffuser-location-screen-event/index.html">DiffuserLocationScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-set-room-name-screen-event/index.html">SetRoomNameScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-set-room-name-more-info-screen-event/index.html">SetRoomNameMoreInfoScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-select-room-name-screen-event/index.html">SelectRoomNameScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-wi-fi-setup-tips-screen-event/index.html">WiFiSetupTipsScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-fragrance-setup-screen-event/index.html">FragranceSetupScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-fragrance-setup-search-fragrance-event/index.html">FragranceSetupSearchFragranceEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-fragrance-setup-scan-q-r-code-screen-event/index.html">FragranceSetupScanQRCodeScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-enter-wi-fi-credentials-password-screen-event/index.html">EnterWiFiCredentialsPasswordScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-enter-wi-fi-credentials-manual-screen-event/index.html">EnterWiFiCredentialsManualScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-wi-fi-setup-tips-web-screen-event/index.html">WiFiSetupTipsWebScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-diffuser-configuration-restart-wi-fi-setup-screen-event/index.html">DiffuserConfigurationRestartWiFiSetupScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-diffuser-configuration-unable-to-connect-to-wi-fi-screen-event/index.html">DiffuserConfigurationUnableToConnectToWiFiScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-diffuser-configuration-this-is-not-working-out-screen-event/index.html">DiffuserConfigurationThisIsNotWorkingOutScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-diffuser-configuration-something-went-wrong-screen-event/index.html">DiffuserConfigurationSomethingWentWrongScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-diffuser-configuration-connection-issue-screen-event/index.html">DiffuserConfigurationConnectionIssueScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-diffuser-configuration-wrong-network-password-screen-event/index.html">DiffuserConfigurationWrongNetworkPasswordScreenEvent</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-diffuser-configuration-network-connection-issue-screen-event/index.html">DiffuserConfigurationNetworkConnectionIssueScreenEvent</a></div></span></div><div></div></div></div></div></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="1958319395%2FConstructors%2F137657446" anchor-label="DiffuserSetupScreenEvent" id="1958319395%2FConstructors%2F137657446" data-filterable-set=":analytics:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-diffuser-setup-screen-event.html"><span>Diffuser</span><wbr></wbr><span>Setup</span><wbr></wbr><span>Screen</span><wbr></wbr><span><span>Event</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1958319395%2FConstructors%2F137657446"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":analytics:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">screenName<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">flow<span class="token operator">: </span><a href="../-analytics-app-flow/index.html">AnalyticsAppFlow</a><span class="token punctuation">, </span></span><span class="parameter ">diffuserSetupVersion<span class="token operator">: </span><a href="../-diffuser-setup-version/index.html">DiffuserSetupVersion</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="-1348124267%2FProperties%2F137657446" anchor-label="diffuserSetupVersion" id="-1348124267%2FProperties%2F137657446" data-filterable-set=":analytics:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="diffuser-setup-version.html"><span>diffuser</span><wbr></wbr><span>Setup</span><wbr></wbr><span><span>Version</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1348124267%2FProperties%2F137657446"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":analytics:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">val </span><a href="diffuser-setup-version.html">diffuserSetupVersion</a><span class="token operator">: </span><a href="../-diffuser-setup-version/index.html">DiffuserSetupVersion</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-904286927%2FProperties%2F137657446" anchor-label="screenName" id="-904286927%2FProperties%2F137657446" data-filterable-set=":analytics:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-default-screen-viewed-event/screen-name.html"><span>screen</span><wbr></wbr><span><span>Name</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-904286927%2FProperties%2F137657446"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":analytics:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="../-default-screen-viewed-event/screen-name.html">screenName</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="-1185216578%2FFunctions%2F137657446" anchor-label="parameters" id="-1185216578%2FFunctions%2F137657446" data-filterable-set=":analytics:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-default-screen-viewed-event/parameters.html"><span><span>parameters</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1185216578%2FFunctions%2F137657446"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":analytics:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../-default-screen-viewed-event/parameters.html"><span class="token function">parameters</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="kotlinx.serialization.json/JsonObject///PointingToDeclaration/">JsonObject</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1695694862%2FFunctions%2F137657446" anchor-label="parametersAsMap" id="-1695694862%2FFunctions%2F137657446" data-filterable-set=":analytics:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-default-screen-viewed-event/parameters-as-map.html"><span>parameters</span><wbr></wbr><span>As</span><wbr></wbr><span><span>Map</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1695694862%2FFunctions%2F137657446"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":analytics:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../-default-screen-viewed-event/parameters-as-map.html"><span class="token function">parametersAsMap</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a><span class="token operator">?</span><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="689891231%2FFunctions%2F137657446" anchor-label="toString" id="689891231%2FFunctions%2F137657446" data-filterable-set=":analytics:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-filterable-current=":analytics:dokkaHtml/commonMain" data-filterable-set=":analytics:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-screen-event/to-string.html"><span>to</span><wbr></wbr><span><span>String</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="689891231%2FFunctions%2F137657446"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":analytics:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../-screen-event/to-string.html"><span class="token function">toString</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>(c) 2024 Pura</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

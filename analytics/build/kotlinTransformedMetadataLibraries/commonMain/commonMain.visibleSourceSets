@@ -1,0 +1,5 @@
+module org.jetbrains.kotlin:kotlin-stdlib:1.9.20 => commonMain
+module io.insert-koin:koin-core:3.2.2 => commonMain
+module org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4 => commonMain,concurrentMain
+module org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0 => commonMain
+module org.jetbrains.kotlinx:kotlinx-serialization-core:1.6.0 => commonMain
