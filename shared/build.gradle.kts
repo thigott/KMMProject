@@ -5,6 +5,8 @@ plugins {
     id("io.github.luca992.multiplatform-swiftpackage").version("2.2.0")
 }
 
+group = "2.0.1"
+
 @OptIn(org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi::class)
 kotlin {
     targetHierarchy.default()

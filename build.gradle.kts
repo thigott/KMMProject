@@ -17,13 +17,20 @@ subprojects {
         plugin("maven-publish")
     }
 
-    publishing {
-        publications {
-            create<MavenPublication>("maven") {
-                group = "com.github.thigott"
-                version = "2.0.0"
-                val source = "$buildDir/outputs/aar/${artifactId}-release.aar"
-                artifact(source)
+    afterEvaluate {
+        plugins.withId("com.android.library") {
+            publishing {
+                publications {
+                    register<MavenPublication>("release") {
+                        groupId = "com.github.thigott"
+                        version = "2.0.1"
+
+                        afterEvaluate {
+                            val source = "$buildDir/outputs/aar/${artifactId}-release.aar"
+                            artifact(source)
+                        }
+                    }
+                }
             }
         }
     }
