@@ -2,6 +2,7 @@ plugins {
     kotlin("multiplatform")
     kotlin("native.cocoapods")
     id("com.android.library")
+    id("maven-publish")
     id("io.github.luca992.multiplatform-swiftpackage").version("2.2.0")
 }
 
@@ -56,6 +57,8 @@ kotlin {
             }
         }
     }
+
+    withSourcesJar()
 }
 
 dependencies {

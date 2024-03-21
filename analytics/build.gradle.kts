@@ -4,6 +4,7 @@ plugins {
     kotlin("multiplatform")
     kotlin("native.cocoapods")
     kotlin("plugin.serialization") version "1.9.20"
+    id("maven-publish")
     id("com.android.library")
 }
 
@@ -53,6 +54,8 @@ kotlin {
             }
         }
     }
+
+    withSourcesJar()
 }
 
 android {
