@@ -1,6 +1,4 @@
-import org.jetbrains.dokka.base.DokkaBase
-import org.jetbrains.dokka.base.DokkaBaseConfiguration
-import org.jetbrains.dokka.gradle.DokkaTask
+
 
 plugins {
     kotlin("multiplatform")
@@ -8,8 +6,6 @@ plugins {
     kotlin("plugin.serialization") version "1.9.20"
     id("com.android.library")
 }
-
-version = "2.0.0"
 
 @OptIn(org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi::class)
 kotlin {
@@ -55,19 +51,6 @@ kotlin {
             }
         }
     }
-
-    tasks.withType<DokkaTask>().configureEach {
-        pluginConfiguration<DokkaBase, DokkaBaseConfiguration> {
-            footerMessage = "(c) 2024 Pura"
-            outputDirectory.set(rootDir.resolve("docs"))
-            moduleName.set("Pura Analytics Library")
-            dokkaSourceSets {
-                configureEach {
-                    includes.from("DokkaConfiguration.md")
-                }
-            }
-        }
-    }
 }
 
 android {
@@ -75,12 +58,5 @@ android {
     compileSdk = 34
     defaultConfig {
         minSdk = 23
-    }
-
-    publishing {
-        singleVariant("release") {
-            withSourcesJar()
-            withJavadocJar()
-        }
     }
 }

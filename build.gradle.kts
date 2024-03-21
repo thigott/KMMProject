@@ -5,17 +5,20 @@ plugins {
     id("org.jetbrains.kotlin.plugin.serialization").version("1.9.20")
     id("org.jetbrains.kotlin.android") version "1.9.20" apply false
     id("maven-publish")
-    id("org.jetbrains.dokka") version "1.9.20"
 }
 
-buildscript {
-    dependencies {
-        classpath(libs.dokka)
-    }
-}
 
 tasks.register("clean", Delete::class) {
     delete(rootProject.buildDir)
+}
+
+subprojects {
+    apply {
+        plugin("maven-publish")
+    }
+
+    group = "com.github.puradev"
+    version = "2.0.0"
 }
 
 

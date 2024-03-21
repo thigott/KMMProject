@@ -2,11 +2,8 @@ plugins {
     kotlin("multiplatform")
     kotlin("native.cocoapods")
     id("com.android.library")
-    id("maven-publish")
     id("io.github.luca992.multiplatform-swiftpackage").version("2.2.0")
 }
-
-version = "2.0.0"
 
 @OptIn(org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi::class)
 kotlin {
@@ -63,31 +60,11 @@ dependencies {
     api(project(":analytics"))
 }
 
-publishing {
-    publications {
-        register<MavenPublication>("release") {
-            groupId = "com.github.puradev"
-            version = "2.0.0"
-
-            afterEvaluate {
-                from(components["release"])
-            }
-        }
-    }
-}
-
 android {
     namespace = "com.purascents.puramultiplatformlibrary"
     compileSdk = 34
     defaultConfig {
         minSdk = 23
-    }
-
-    publishing {
-        singleVariant("release") {
-            withSourcesJar()
-            withJavadocJar()
-        }
     }
 }
 
