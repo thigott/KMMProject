@@ -57,8 +57,6 @@ kotlin {
             }
         }
     }
-
-    withSourcesJar()
 }
 
 dependencies {

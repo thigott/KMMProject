@@ -54,8 +54,6 @@ kotlin {
             }
         }
     }
-
-    withSourcesJar()
 }
 
 android {
