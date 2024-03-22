@@ -63,4 +63,18 @@ android {
     defaultConfig {
         minSdk = 23
     }
+
+    publishing {
+        singleVariant("release")
+    }
+
+    afterEvaluate {
+        publishing {
+            publications {
+                register<MavenPublication>("release") {
+                    from(components["release"])
+                }
+            }
+        }
+    }
 }
