@@ -19,9 +19,21 @@ subprojects {
         archiveClassifier.set("javadoc")
     }
 
-    publishing {
-        publications.withType<MavenPublication> {
-            artifact(javadocJar)
+    afterEvaluate {
+        plugins.withId("com.android.library") {
+            publishing {
+                publications {
+                    create<MavenPublication>("release") {
+                        groupId = project.group.toString()
+                        version = project.version.toString()
+                        artifactId = project.name
+
+                        afterEvaluate {
+                            artifact("$buildDir/outputs/aar/${artifactId}-release.aar")
+                        }
+                    }
+                }
+            }
         }
     }
 }

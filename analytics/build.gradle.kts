@@ -8,7 +8,8 @@ plugins {
     id("com.android.library")
 }
 
-group = "2.0.1"
+group = "com.github.thigott"
+version = "2.0.1"
 
 @OptIn(org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi::class)
 kotlin {
